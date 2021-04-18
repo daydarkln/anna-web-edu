@@ -1,0 +1,69 @@
+div {
+    color: rgb(252, 52, 52);
+}
+
+.page {
+    color: green;
+}
+
+.page > span:nth-child(3),
+.page > span:nth-child(9) {
+    color: tomato;
+}
+
+.page > span:nth-child(3n) {
+    color: cyan;
+}
+
+.box {
+    font-size: 20px;
+}
+div span.box {
+    font-size: 30px;
+}
+span.box {
+    font-size: 40px;
+}
+
+/* NAVIGATION */
+.nav {
+
+}
+.nav__list {
+    height: 200px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.nav__item {
+    border: 1px dashed green;
+    display: flex;
+    padding: 20px;
+    flex-grow: 1;
+    justify-content: center;
+}
+.nav__item:nth-child(2n) {
+    flex-grow: 7;
+}
+.nav__item-link {}
+
+span {
+    display: block;
+}
+
+div {
+    display: inline;
+}
+
+button {
+    padding: 20px;
+    margin: 30px;
+}
