@@ -1,0 +1,59 @@
+html {
+    font-size: 60px;
+}
+
+.parent {
+    font-size: 30px;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    padding: 10px 20px 30px 40px;
+    padding: 1em;
+    margin: 20px 40px;
+    margin: 1rem;
+    border: 3px dashed rgb(32, 45, 161);
+    background: rgb(235, 132, 15);
+    /* background: url(./Beautiful-photos-and-pictures-on-various-subjects-01.jpg);
+    background: none; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Roboto', 'Arial', serif;
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0);
+    border-radius: 30px;
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0.5;
+    transition: all 300ms ease 500ms;
+
+}
+
+.block:hover {
+    background: red;
+}
+
+/* .parent:hover .block {
+    display: block;
+} */
+
+.menu-item {
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    background: tomato;
+    opacity: .4;
+    padding: 10px;
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
